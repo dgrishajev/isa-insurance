@@ -1,0 +1,230 @@
+@media (max-width: 1920px) {
+
+  .top-block-inner-wrap {
+    top: 56%;
+  }
+
+}
+
+@media (max-width: 1440px) {
+
+  .top-block-inner-wrap {
+    top: 53%;
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+  .header-menu-wrap {
+    display: block !important;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .main-header.expanded {
+    height: 100%;
+    background-color: rgba(25, 102, 193, 0.7);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .header-menu-wrap {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-menu .menu-item {
+    a:hover {
+      color: #fff;
+    }
+    &:last-child a:hover {
+      border-color: #fff;
+      background-color: transparent;
+    }
+  }
+
+  .top-menu .menu-item {
+    display: block;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .top-block {
+    background-position: center center;
+  }
+
+  .top-block-inner-wrap {
+    top: 45%;
+  }
+
+  .steps-bottom-block,
+  .steps-top-block {
+    padding: 0 8%;
+  }
+
+  .steps-bottom-block {
+    padding-top: 40px
+  }
+
+  .steps-arr-3-to-1-block {
+    padding: 120px 0 0 170px;
+  }
+
+  .contact-title {
+    text-align: center;
+  }
+
+  .contact-inner-block {
+    width: 100%;
+    &:first-child {
+      display: none;
+    }
+  }
+
+  .rating-company {
+    width: 33.33%;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .steps-top-block,
+  .steps-bottom-block {
+    padding: 0 2%;
+  }
+
+  .steps-bottom-block {
+    padding-top: 40px;
+  }
+
+  .steps-arr-3-to-1-block {
+    padding: 120px 0 0 130px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .new-customer-form-block,
+  .report-accident-form-block {
+    width: 90%;
+  }
+
+  .report-accident-form-block,
+  .new-customer-form-block {
+    padding: 0 10px;
+  }
+
+  .report-accident-form-left,
+  .report-accident-form-right {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+
+  .report-accident-form-title {
+    margin: 65px auto 15px;
+  }
+
+  .top-sub-block-inner-wrap {
+    width: 100%;
+    margin: auto;
+  }
+
+  .top-sub-block-inner-block {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .issues-block {
+    margin: 40px auto 0px;
+  }
+
+  .issue-outer-wrap {
+    width: 100%;
+    padding: 10px 2%;
+  }
+
+  .issue-block {
+    height: auto;
+  }
+
+  .semicircle {
+    display: none;
+  }
+
+  .steps-arr-block {
+    display: none;
+  }
+
+  .steps-inner-block {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .steps-block {
+    padding: 30px 0;
+  }
+
+  .price-block {
+    width: 100%;
+    &:first-child {
+      margin-bottom: 30px;
+    }
+  }
+
+  .contact-inner-block {
+    padding: 0 20px;
+  }
+
+  .footer-inner-wrap {
+    top: 40%;
+  }
+
+  .footer-title {
+    margin: 10px auto 30px;
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 530px) {
+
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .main-footer .btn {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .rating-company {
+    width: 100%;
+    height: 140px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .top-heading {
+    font-size: 40px;
+  }
+
+  .top-sub-heading {
+    font-size: 25px;
+  }
+
+}

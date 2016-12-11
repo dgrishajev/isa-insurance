@@ -1,0 +1,117 @@
+.steps-block  {
+  padding: 50px 0;
+}
+
+.steps-block-title {
+  margin: 0 auto 10px;
+}
+
+.steps-top-block {
+  margin-top: 30px;
+  padding: 0 16%;
+  @extend .clearfix;
+}
+
+.steps-bottom-block {
+  padding: 30px 20% 0;
+  @extend .clearfix;
+}
+
+.steps-inner-block {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.step-img,
+.steps-arr-inner-block {
+  display: inline-block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.step-block,
+.steps-arr-block {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 30px 43.5px;
+}
+
+.step-block {
+  position: relative;
+  border-radius: 50%;
+  background-color: #efefef;
+  // &:hover {
+  //   background-color: $blue;
+  //   path, ellipse, rect:not(#Rectangle-path-top) {
+  //     fill: #efefef;
+  //     stroke: #efefef;
+  //   }
+  //   .calendar path,
+  //   .calendar rect {
+  //     stroke: $blue;
+  //   }
+  //   .calendar .calendar-shape {
+  //     stroke: #efefef;
+  //   }
+  //   .coffee {
+  //     path.steam {
+  //       fill: $blue;
+  //     }
+  //     path#Shape {
+  //       fill: $blue;
+  //     }
+  //   }
+  //   rect {
+  //     stroke: #efefef;
+  //   }
+  // }
+}
+
+.step-2-inner-block {
+  float: right;
+  .step-block {
+    padding: 40px;
+  }
+}
+
+.step-3-inner-block .step-block {
+  padding: 50px 28px;
+}
+
+.steps-arr-3-to-1-block {
+  padding: 16% 0 0 20%;
+}
+
+.steps-arr-1-to-2-block {
+  padding: 15% 20% 0 0;
+}
+
+.steps-arr-2-to-3-block {
+  padding: 150px 0 0;
+  float: none;
+}
+
+.step-text-heading {
+  margin: 15px auto 5px;
+  font-size: 22px;
+  font-weight: normal;
+  color: $blue;
+}
+
+.step-text-desc {
+  font-size: 18px;
+  color: #0f0f0f;
+  margin: 5px 0;
+}
+
+.step-num {
+  padding: 13px 19px 15px 19px;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  right: 2px;
+  background: #4a4a4a;
+  color: #fff;
+}

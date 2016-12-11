@@ -1,0 +1,59 @@
+.issues-block {
+  margin: 40px auto 110px;
+}
+
+.issues-wrap {
+  margin: 45px 0 30px;
+  padding: 0 4%;
+  @extend .clearfix;
+}
+
+.issue-outer-wrap {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 0 2%;
+  float: left;
+  &:first-child,
+  &:last-child {
+    margin-top: 20px;
+  }
+}
+
+.issue-block {
+  height: 380px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  background-color: #fbfbfb;
+}
+
+.issue-img-block {
+  box-sizing: border-box;
+  padding: 50px 0px 30px;
+  svg {
+    width: 100%;
+  }
+}
+
+.issue-title {
+  margin: auto auto 0;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.issue-divider {
+  width: 20px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: $blue;
+}
+
+.issue-text {
+  margin: 6px 20px;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #0f0f0f;
+}

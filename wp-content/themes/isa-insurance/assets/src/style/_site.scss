@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  position: relative;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+::-moz-selection {
+  background: $blue;
+  color: #fff;
+}
+
+::selection {
+  background: $blue;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  max-width: 90%;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  margin: auto;
+  color: #0f0f0f;
+}
+
+.btn {
+  padding: 12px 18px;
+  background-color: $blue;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  &:hover {
+    background-color: lighten($blue, 10%);
+  }
+}
+
+.img-hidden {
+  width: 100%;
+  visibility: hidden;
+}
+
+.divider {
+  width: 40px;
+  height: 5px;
+  margin: 8px auto;
+  background-color: $blue;
+}

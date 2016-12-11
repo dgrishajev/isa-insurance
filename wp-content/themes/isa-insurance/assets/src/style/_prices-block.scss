@@ -1,0 +1,58 @@
+.prices-block {
+  position: relative;
+  background: url(assets/build/img/png/prices-img.png) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  .img-hidden {
+    width: 70%;
+  }
+}
+
+.prices-block-inner-wrap {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.semicircle {
+  width: 70px;
+  height: 35px;
+  position: absolute;
+  left: calc(50% - 35px);
+  background-color: #fff;
+}
+
+.semicircle-down {
+  top: 0;
+  border-radius: 0 0 90px 90px;
+}
+
+.semicircle-up {
+  bottom: 0;
+  border-radius: 90px 90px 0 0;
+}
+
+.prices-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.prices-text {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.prices-img {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  svg {
+    width: 140px;
+    height: 140px;
+  }
+}

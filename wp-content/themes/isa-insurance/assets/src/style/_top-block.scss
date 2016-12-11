@@ -1,0 +1,36 @@
+.top-block {
+  height: 90vh;
+  position: relative;
+	background: url(assets/build/img/jpg/top-img.jpg) 0 55% no-repeat;
+	background-size: cover;
+  .img-hidden {
+    margin-top: -30px;
+  }
+}
+
+.logged-in .top-block {
+  height: calc(90vh + 32px);
+}
+
+.top-block-inner-wrap {
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  top: 47%;
+  transform: translateY(-50%);
+  text-align: center;
+  .btn {
+    display: inline-block;
+    margin-top: 40px;
+  }
+}
+
+.top-heading {
+  margin: 20px auto;
+  font-size: 60px;
+}
+
+.top-sub-heading {
+  margin: 40px auto;
+  font-size: 35px;
+}

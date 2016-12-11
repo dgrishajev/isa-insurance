@@ -1,0 +1,82 @@
+.contact-block {
+  @extend .clearfix;
+  .img-hidden {
+    height: 622px;
+  }
+}
+
+.contact-inner-block {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 120px;
+  float: left;
+  &:first-child {
+    background: url(assets/build/img/jpg/contact-img.jpg) bottom center no-repeat;
+    background-size: 60% auto;
+  }
+}
+
+.contact-title {
+  margin: 30px auto 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #979797;
+  border-radius: 5px;
+  font-family: Lato;
+  font-size: 20px;
+  outline: none;
+}
+
+input {
+  height: 50px;
+  padding: 0 15px;
+  &[type='submit'] {
+    border: none;
+    background-color: $blue;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    &:hover {
+      background-color: lighten($blue, 10%);
+    }
+  }
+}
+
+textarea {
+  height: 250px;
+  padding: 10px 15px;
+  resize: none;
+}
+
+.wpcf7-form p {
+  margin: 20px auto;
+}
+
+::-webkit-input-placeholder {
+  color: #4a4a4a;
+  opacity: 0.6;
+}
+
+::-moz-placeholder {
+  color: #4a4a4a;
+  opacity: 0.6;
+}
+
+:-ms-input-placeholder {
+  color: #4a4a4a;
+  opacity: 0.6;
+}
+
+:-moz-placeholder {
+  color: #4a4a4a;
+  opacity: 0.6;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "isa-insurance",
+  "version": "1.0.0",
+  "description": "A website developed for a Danish mobile insurance business",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dgrishajev@github.com/dgrishajev/isa-insurance.git"
+  },
+  "author": "Dominic Grishajev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgrishajev/isa-insurance/issues"
+  },
+  "homepage": "https://github.com/dgrishajev/isa-insurance#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.9",
+    "jquery": "^3.1.0",
+    "slick-carousel": "^1.6.0",
+    "webpack-stream": "^3.2.0"
+  }
+}

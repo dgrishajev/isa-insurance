@@ -1,0 +1,86 @@
+.rating-block {
+  text-align: center;
+  .divider {
+    margin: 8px auto 20px;
+  }
+}
+
+.rating-inner-block-1 {
+  padding: 1px 0;
+  background-color: #fbfbfb;
+}
+
+.rating-title {
+  margin: 20px auto 10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.rating-companies {
+  display: inline-block;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.rating-company {
+  width: 16.66667%;
+  height: 100px;
+  float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  &:first-child {
+    background-image: url(assets/build/img/png/company-1-img.png);
+  }
+  &:nth-child(2) {
+    background-image: url(assets/build/img/png/company-2-img.png);
+  }
+  &:nth-child(3) {
+    background-image: url(assets/build/img/png/company-3-img.png);
+  }
+  &:nth-child(4) {
+    background-image: url(assets/build/img/png/company-4-img.png);
+  }
+  &:nth-child(5) {
+    background-image: url(assets/build/img/png/company-5-img.png);
+  }
+  &:last-child {
+    background-image: url(assets/build/img/png/company-6-img.png);
+  }
+}
+
+.rating-inner-block-2 {
+  padding: 25px 0;
+  .rating-title {
+    margin: 0 auto 10px;
+  }
+}
+
+// .trust-pilot-block {
+//   width: 184px;
+//   height: 21px;
+//   margin: auto;
+//   background: url(assets/build/img/png/trust-pilot-img.png) center center no-repeat;
+//   background-size: 100% auto;
+// }
+
+// .rating-stars-block {
+//   width: 286px;
+//   height: 51px;
+//   margin: 16px auto;
+//   background: url(assets/build/img/png/rating-stars.png) center center no-repeat;
+//   background-size: 100% auto;
+// }
+
+// .trust-score-block {
+//   text-align: center;
+//   color: #929292;
+// }
+
+// .trust-score-text {
+//   margin: 5px auto;
+// }
+
+// .trust-score-num {
+//   color: #4a4a4a;
+// }
